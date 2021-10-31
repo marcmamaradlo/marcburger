@@ -1,0 +1,194 @@
+.body	{
+	display: flex;
+	justify-content: center;
+	font-family: 'Michroma', helvetica, verdana, sans-serif;
+	margin: 0;
+	background: url("wallpapper2.jpg") no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    color: white;
+	}
+/* Navigation Bar*/
+.navbar	{
+	background-color: #b33737;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+	}
+	
+.navleft	{
+	float: left;
+	text-align: center;
+	}
+
+.navright	{
+	float: right;
+	padding-right: 30px;
+	text-align: center;
+	}
+
+p   {
+    font-size: 20px;
+    text-shadow: 1px 1px 11px black
+    }
+
+a, ul, li	{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding-left: 5px;
+	}
+
+a:hover	{
+	color: lightgrey;
+	}	
+/*End of Navigation Bar*/
+
+.logo	{
+	display: flex;
+	justify-items: center;
+	margin-top: 10%;
+	}
+	
+.footer	{
+	display: flex;
+	justify-content: center;
+	background-color: #b33737;
+	width: 100%;
+	padding: 0px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	}
+	
+.row	{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 60% 60%;
+    grid-gap: 10%;
+    grid-column-gap: 100px;
+    border: 0px solid white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+	}
+	
+.colleft {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.1);
+    border-radius: 10px;
+    border: 0px solid black;
+    margin-left: 10%;
+    height: 100%;
+    grid-gap: 10px;
+	}
+
+.colright   {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.1);
+    border-radius: 10px;
+    border: 0px solid black;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    height: 100%;
+    padding-bottom: 20px;
+    }
+
+.form   {
+    display: grid;
+    justify-items: center;
+    background-color: rgba(0,0,0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10%;
+    max-width: 100%; 
+    height: 100%;
+    }
+
+.formleft    {
+    margin-top: 16px;
+    float: left;
+    width: 50%;
+    }
+
+.formright   {
+    float: left;
+    width: 50%;
+    }
+
+input[type=text]    {
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 4px;
+    border: 0px solid black;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    }
+
+fieldset    {
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 20px 20px 0px 20px;
+    width: 400px;
+    height: 420px;
+    }
+
+input[type=submit]   {
+    background-color: rgba(0,0,0, 0.5);
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    }
+
+input[type=submit]:hover    {
+    background-color: rgba(0,0,0, 0.1);
+    }
+
+.menustarter   {
+    background-image: url("Mozzarella Sticks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 8px 8px 0px 0px;
+    }
+
+.menusandwich   {
+    background-image: url("Graffiti Steak.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 8px 8px 0px 0px;
+    }
+
+.menuburgers   {
+    background-image: url("Graffiti Burger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 8px 8px 0px 0px;
+    }
+
+.menuhotdogs   {
+    background-image: url("Classic Hotdog 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 8px 8px 0px 0px;
+    }
+
+.imgtext    {
+    text-shadow: 1px 1px 11px black;
+    padding: 70px;
+    }
